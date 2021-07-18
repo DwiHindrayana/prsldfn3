@@ -17,24 +17,24 @@
 import os
 from DaisyXMusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hello 👋 [{}](tg://user?id={})!**\n\n🤖 I am an advanced bot created for playing music in the voice chats of Telegram Groups & Channels.\n\n✅ Send me /help for more info."
+      START_MSG = "**Hai aku Prisil 👋 [{}](tg://user?id={})!**\n\n🤖 aku cantik, tapi aku bot yang bisa streaming lagu di voice chat grup kalian loh.\n\n✅ kirim /help untuk info lebih lanjut."
       HELP_MSG = [
         ".",
 f"""
-**Hey 👋 Welcome back to {PROJECT_NAME}
+**Hai sayang, selamat datang di {PROJECT_NAME}
 
-⚪️ {PROJECT_NAME} can play music in your group's voice chat as well as channel voice chats
+⚪️ {PROJECT_NAME} aku bisa streaming lagu di voice chat grup kalian.
 
-⚪️ Assistant name >> @{ASSISTANT_NAME}\n\nClick next for instructions**
+⚪️ Babunya Prisil >> @{ASSISTANT_NAME}\n\nClick next untuk intruksi.**
 """,
 
 f"""
 **Setting up**
 
-1) Make bot admin (Group and in channel if use cplay)
-2) Start a voice chat
-3) Try /play [song name] for the first time by an admin
-*) If userbot joined enjoy music, If not add @{ASSISTANT_NAME} to your group and retry
+1) Jadikan bot admin grup dulu ya say 
+2) Mulai voice chat
+3) Coba /play [judul lagu] untuk pertama kali oleh admin
+*) kalo babunya prisil join selamat menikamati, jika tidak undang @{ASSISTANT_NAME} secara manual
 
 **For Channel Music Play**
 1) Make me admin of your channel 
@@ -45,12 +45,12 @@ f"""
 
 **=>> Song Playing 🎧**
 
-- /play: Play the requestd song
-- /play [yt url] : Play the given yt url
-- /play [reply yo audio]: Play replied audio
-- /dplay: Play song via deezer
-- /splay: Play song via jio saavn
-- /ytplay: Directly play song via Youtube Music
+- /play: Play lagu yang diinginkan
+- /play [yt url] : Play dari link youtube
+- /play [reply yo audio]: Play daru audio yang dibalas dalam chat
+- /dplay: Play lagu via deezer
+- /splay: Play lagu via jio saavn
+- /ytplay: Directly play lagu via Youtube Music
 
 **=>> Playback ⏯**
 
@@ -98,7 +98,7 @@ f"""
 
 - /musicplayer [on/off]: Enable/Disable Music player
 - /admincache: Updates admin info of your group. Try if bot isn't recognize admin
-- /userbotjoin: Invite @{ASSISTANT_NAME} Userbot to your chat
+- /userbotjoin: undang @{ASSISTANT_NAME} babunya prisil
 
 **=>> Commands for Sudo Users ⚔️**
 
