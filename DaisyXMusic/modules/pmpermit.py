@@ -33,7 +33,7 @@ async def pmPermit(client: USER, message: Message):
                 return
             await USER.send_message(
                 message.chat.id,
-                "Hai sayang, ini layanan music assistant.\n\n ❗️ Rules:\n   - dilarang chat\n   - dilarang spam \n\n 👉 **KIRIM LINK UNDANGAN GRUP KALO GUA BELUM JOIN GRUP LU.**\n\n ⚠️ Disclamer: Jiak lu kirim pesan ke sini itu berarti admin melihat lalu bergabung ke chat kalian\n    - Jangan add gua ke secret groups.\n   - Jangan sebarkan informasi rahasia di sini\n\n",
+                "Hai sayang, ini layanan music assistant.\n\n ❗️ Rules:\n   - dilarang chat\n   - dilarang spam \n\n 👉 **KIRIM LINK UNDANGAN GRUP KALO GUA BELUM JOIN GRUP LU.**\n\n ⚠️ Disclamer: Jika lu kirim pesan ke sini itu berarti admin melihat lalu bergabung ke chat kalian\n    - Jangan add gua ke secret groups.\n   - Jangan sebarkan informasi rahasia di sini\n\n",
             )
             return
 
@@ -59,7 +59,7 @@ async def autopmPermiat(client: USER, message: Message):
     chat_id = message.chat.id
     if not chat_id in pchats:
         pchats.append(chat_id)
-        await message.reply_text("PM diperbolehkan terhadap pesan keluar")
+        await message.reply_text("PM diperbolehkan karena ada pesan keluar")
         return
     message.continue_propagation()    
     
