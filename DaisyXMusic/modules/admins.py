@@ -27,6 +27,7 @@ from DaisyXMusic.helpers.filters import command, other_filters
 from DaisyXMusic.services.callsmusic import callsmusic
 from DaisyXMusic.services.queues import queues
 
+
 @Client.on_message(filters.command("adminreset"))
 async def update_admin(client, message: Message):
     chat_id = get_chat_id(message.chat)
