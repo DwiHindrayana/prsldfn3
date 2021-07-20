@@ -17,7 +17,7 @@
 import os
 from DaisyXMusic.config import SOURCE_CODE,ASSISTANT_NAME,PROJECT_NAME,SUPPORT_GROUP,UPDATES_CHANNEL
 class Messages():
-      START_MSG = "**Hai aku Prisil 👋 [{}](tg://user?id={})!**\n\n🤖 aku cantik, tapi aku bot yang bisa streaming lagu di voice chat grup kalian loh.\n\n✅ kirim /help untuk info lebih lanjut."
+      START_MSG = "**Hai sayang 👋 [{}](tg://user?id={})!**\n\n🤖 aku cantik, tapi aku bot yang bisa streaming lagu di voice chat grup kalian loh.\n\n✅ kirim /help untuk info lebih lanjut."
       HELP_MSG = [
         ".",
 f"""
